@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+table, td {
+
+  border: 1px solid black;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<h3>A demonstration of how to access a TABLE element</h3>
+
+
+<table id="myTable">
+
+  <tr>
+    
+<td>uc</td>
+    
+<th>90</th>
+  
+</tr>
+  
+<tr>
+    
+<td>csk</td>
+    
+<th>85</th>
+  
+</tr>
+   
+<td>mi</td>
+   
+<th>50</th>
+  
+</tr> 
+
+</table>
+
+
+
+<button onclick="window.print()">Print this page</button>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTable");
+  x.deleteRow(0);
+}
+</script>
+
+
+</body>
+
+</html>
